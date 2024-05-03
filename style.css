@@ -1,0 +1,300 @@
+/* Reset CSS */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+  }
+  
+  /* Navbar */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  .logo {
+    flex: 1;
+  }
+  
+  .logo img {
+    max-width: 100%;
+    border: 2px solid #333;
+    padding: 5px;
+  }
+  
+  /* Increase margin between logos */
+  .logo:not(:last-child) {
+    margin-right: 20px;
+  }
+  
+  .search {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .search input[type="text"] {
+    padding: 8px 16px;
+    width: 200px;
+    border: 2px solid #333;
+    outline: none;
+  }
+  
+  .search button {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for clickable elements */
+  a:hover,
+  button:hover {
+    /* Add your hover styles here */
+    /* For example: background-color: orange; */
+  }
+  
+  /* Navbar icons */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer
+  footer {
+    background-color: #F4F4F4;
+    color: #53585F;
+    padding: 40px 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex: 1 0 30%;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section h3 {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 5px;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .footer-bottom {
+    text-align: center */
+  
+  .second-nav {
+    background-color: #ffffff;
+    padding: 10px 20px;
+  }
+  
+  .categories {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .categories li {
+    display: inline-block;
+  }
+  
+  .categories li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .categories li.dropdown {
+    position: relative;
+  }
+  
+  .categories .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .categories .dropdown-content a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .categories .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .categories .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .p1 {
+    padding-left: 400px;
+  }
+  
+  .p2 {
+    margin-bottom: 313px;
+    margin-right: 20px;
+  }
+  
+  .p3 {
+    margin-top: 270px;
+    position: relative;
+    left: -430px; /* Adjust this value as needed to move it to the left */
+  }
+  .p4{
+    margin-left: 250px;
+  }
+  .sec3 {
+    background-color: #f0f0f0; /* Change to your desired background color */
+    text-align: center; /* Center-align the content */
+    padding: 20px; /* Add padding to create space around the content */
+  }
+  
+  .third h2 {
+    font-family: myriad pro bold; /* Specify the font family */
+    color: #333; /* Specify the color of the text */
+  }
+  
+  .sec1 {
+    display: flex;
+    align-items: center;
+  }
+  .container {
+    width: 100%;
+    overflow-x: auto; /* Enable horizontal scrolling if the content overflows */
+    background-color: #E5E5E5; /* Background color for the container */
+    padding: 20px; /* Add padding to the container */
+  }
+  
+  .image-list {
+    list-style: none; /* Remove default list styles */
+    margin: 0;
+    padding: 0;
+    white-space: nowrap; /* Prevent line breaks */
+  }
+  
+  .image-list li {
+    display: inline-block;
+    margin-right: 20px; /* Adjust spacing between items */
+  }
+  
+  .image-list li:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+  }
+  
+  .image-list li img {
+    width: 200px; /* Set the width of the images */
+    height: auto; /* Maintain aspect ratio */
+    display: inline-block; /* Ensure images are inline */
+    vertical-align: middle; /* Align images vertically with text */
+    margin-right: 10px; /* Adjust spacing between image and text */
+  }
+  
+  .image-list li span {
+    display: inline-block; /* Ensure each name is on the same line */
+    vertical-align: middle; /* Align text vertically with image */
+    font-family: 'Myriad Pro', 'Arial', sans-serif; /* Specify the font family */
+    font-weight: 400; /* Specify the font weight */
+    background-color: rgba(0, 0, 0, 0); /* Specify the background color */
+    text-decoration: none; /* Remove underline */
+    border-bottom: 2px solid rgb(83, 88, 95); /* Add solid border bottom */
+    padding-bottom: 2px; /* Adjust spacing between text and border */
+  }
+  .image-list li:nth-child(4) img {
+    width: 100px; /* Set a smaller width for the fourth image */
+  }
+/* footer css*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #navloc{
+    text-align: c;
+    color:white;
+    background-color: #806e6e;
+    display: flex;
+    align-content:center;
+    align-items: center;
+    justify-content: center;
+  }
+  #loc{
+    text-align: center;
+    height: 25px;
+    width: 130px;
+    border:2px solid white;
+  }
+  #foot{
+    display: flex;
+    align-content: center;
+  }
+  
+  
+  ul{
+    list-style-type: none;
+  }
+   #pay{
+    display: flex;
+    align-content: center;
+   }
+   #box1:hover{
+    color:red;
+   }
+   #box2:hover{
+    color:red;
+   }
+   #box3:hover{
+    color:red;
+   }
+   #box4:hover{
+    color:red;
+   }
+  
